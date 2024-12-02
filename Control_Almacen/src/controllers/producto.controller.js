@@ -50,7 +50,7 @@ const createProduct = async (req, res) => {
 
         res.status(200).json({
             ok: true,
-            message: "Product created successfully",
+            message: "Producto creado correctamente",
             data: [product, productDetail]
         });
 
